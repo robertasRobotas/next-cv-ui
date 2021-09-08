@@ -1,7 +1,14 @@
 import React from 'react';
+import { CodeArea, Canvas } from '../components';
 
-const Builder: React.FC = () => {
-  return <div></div>;
+const Builder = () => {
+  return (
+    <>
+      <CodeArea />
+      <CodeArea />
+      <Canvas />
+    </>
+  );
 };
 
 export default Builder;
